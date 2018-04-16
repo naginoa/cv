@@ -1,4 +1,4 @@
-#coding=utf-8
+﻿#coding=utf-8
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -32,14 +32,14 @@ def matchTem(imgName):
                 top_left = max_loc
             bottom_right = (top_left[0] + w, top_left[1] + h)
 
-            # ������ֵ
+            #调整阈值
             if (top_left[0] >= 50 and top_left[0] <= 60 and top_left[1] >= 20 and top_left[1] <= 40):
                 # print('top_left is :', top_left)
                 # print('bottom_right is:', bottom_right)
 
                 matchCount += 1
 
-                # ֻ������һ��ģʽ �������ȥ��if��ʾȫ��ģʽ
+                #只添加最后一种模式 这里可以去掉if显示全部模式
                 if (matchCount >= 5):
                     cv2.rectangle(img, top_left, bottom_right, (255, 120, 255), 2)
                     plt.figure()
