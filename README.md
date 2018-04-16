@@ -34,6 +34,8 @@
 
 ![](https://github.com/naginoasukara/cv/blob/master/%E8%AF%86%E5%88%AB%E4%BA%8C%E7%BB%B4%E7%A0%81%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%97/image/1.jpg)
 
+明显不行
+
 ### 后来思路
 
 * 将gif抽帧成图片
@@ -46,6 +48,8 @@ opencv中的macthTemplate函数
 
 结果如图：
 
+![](https://github.com/naginoasukara/cv/blob/master/%E8%AF%86%E5%88%AB%E4%BA%8C%E7%BB%B4%E7%A0%81%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%97/image/2.jpg)
 
+![](https://github.com/naginoasukara/cv/blob/master/%E8%AF%86%E5%88%AB%E4%BA%8C%E7%BB%B4%E7%A0%81%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%97/image/3.jpg)
 
 
