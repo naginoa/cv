@@ -40,4 +40,6 @@
 
 opencv中的macthTemplate函数
 
-[模板匹配详情](http://blog.csdn.net/guodongxiaren "悬停显示")
+[模板匹配详情](https://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/template_matching/template_matching.html "悬停显示")
+
+
