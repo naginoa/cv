@@ -36,10 +36,16 @@
 
 ### 后来思路
 
-使用模板匹配
+* 将gif抽帧成图片
+
+* 使用模板匹配
 
 opencv中的macthTemplate函数
 
 [模板匹配详情](https://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/template_matching/template_matching.html "悬停显示")
+
+结果如图：
+
+
 
 
