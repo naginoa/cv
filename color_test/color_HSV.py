@@ -5,7 +5,7 @@ import numpy as np
 pic_dir = '/home/evga/rxy/color_test/gen_color_pic/'
 
 colors = ['yellow.jpg', 'red.jpg', 'blue.jpg', 'green.jpg', 'black.jpg', 'white.jpg']
-test_pic = ['test_yellow.jpg', 'test_blue.jpg', 'test_green.jpg']
+test_pic = ['test_yellow.jpg', 'test_deep_blue.png', 'test_green.jpg', 'test_blue.jpg', 'test_red.jpeg', 'mid_yellow.png']
 
 for t in test_pic:
     value_dict = {}
@@ -55,3 +55,4 @@ for t in test_pic:
     print 'the minium is ....'
     for i, j in sorted(value_dict.items(), key=lambda x: x[1]):
         print i, j
+        break

@@ -25,16 +25,15 @@ def create_image_white():
 create_image_white()
 
 def create_image_gbry():
-    img_green = np.zeros([400, 400, 3], np.uint8)
-    img_green[:, :, 0] = np.zeros([400, 400]) + 255
-    print img_green
-    print type(img_green)
-    cv2.imshow("iamge_green", img_green)
-    cv2.imwrite(pic_dir + 'green.jpg', img_green)
     img_blue = np.zeros([400, 400, 3], np.uint8)
-    img_blue[:, :, 1] = np.zeros([400, 400]) + 255
+    img_blue[:, :, 0] = np.zeros([400, 400]) + 255
+    print img_blue
     cv2.imshow("iamge_blue", img_blue)
     cv2.imwrite(pic_dir + 'blue.jpg', img_blue)
+    img_green = np.zeros([400, 400, 3], np.uint8)
+    img_green[:, :, 1] = np.zeros([400, 400]) + 255
+    cv2.imshow("iamge_green", img_green)
+    cv2.imwrite(pic_dir + 'green.jpg', img_green)
     img_red = np.zeros([400, 400, 3], np.uint8)
     img_red[:, :, 2] = np.zeros([400, 400])+ 255
     cv2.imshow("iamge_red", img_red)
